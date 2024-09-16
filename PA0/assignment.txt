@@ -1,0 +1,5 @@
+Jack Gladowsky EEECE5554 PA0
+
+1. I have installed Ubuntu 22.04 on my laptop.
+2. I have connected to Gitlab and created a new project.
+3. I am working on building and programming my own 3D printed robot arm.
