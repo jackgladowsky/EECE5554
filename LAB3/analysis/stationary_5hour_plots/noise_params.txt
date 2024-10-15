@@ -1,0 +1,8 @@
+Accelerometer Noise Parameters:
+X-axis: ARW = 0.0021225 m/s/√Hz, RRW = 6.5026e-05 m/s^2/√Hz, BI = 0.0014049 m/s^2 at tau = 9.35 s
+Y-axis: ARW = 0.0019846 m/s/√Hz, RRW = 0.00012103 m/s^2/√Hz, BI = 0.000736 m/s^2 at tau = 37.375 s
+Z-axis: ARW = 0.0028128 m/s/√Hz, RRW = 2.2915e-05 m/s^2/√Hz, BI = 0.00064911 m/s^2 at tau = 79.6 s
+Gyroscope Noise Parameters:
+X-axis: ARW = 0.0009528 rad/√Hz, RRW = 4.5315e-06 rad/s/√Hz, BI = 0.00029688 rad/s at tau = 2.35 s
+Y-axis: ARW = 0.00047117 rad/√Hz, RRW = 0.0050267 rad/s/√Hz, BI = 0.00023458 rad/s at tau = 769.175 s
+Z-axis: ARW = 0.0049137 rad/√Hz, RRW = 9.15e-05 rad/s/√Hz, BI = 0.00043781 rad/s at tau = 8.25 s
