@@ -106,7 +106,7 @@ def print_statistics(x, y, z, title):
     for axis, data in zip(axes, [x, y, z]):
         mean = np.mean(data)
         std = np.std(data)
-        print(f"  {axis}: Mean = {mean:.9f}, Std Dev = {std:.6f}")
+        print(f"  {axis}: Mean = {mean:.9f}, Std Dev = {std:.9f}")
 
 def plot_histogram(x, y, z, title):
     fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(15, 5))
@@ -129,5 +129,5 @@ def plot_histogram(x, y, z, title):
     plt.close()
 
 if __name__ == "__main__":
-    bag_path = "./stationary15_1"
+    bag_path = "./stationary15_2"
     analyze_imu_data(bag_path)

@@ -37,9 +37,9 @@ class IMUDriver(Node):
                     
                     # Parse YPR, accel, gyro, and mag data
                     yaw, pitch, roll = map(float, data[1:4])
-                    accel = list(map(float, data[4:7]))
-                    gyro = list(map(float, data[7:10]))
-                    mag = list(map(float, data[10:13]))
+                    mag = list(map(float, data[4:7]))
+                    accel = list(map(float, data[7:10]))
+                    gyro = list(map(float, data[10:13]))
                     
                     # Convert degrees to radians for Euler angles
                     yaw_rad = math.radians(yaw)
