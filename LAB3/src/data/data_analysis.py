@@ -129,5 +129,5 @@ def plot_histogram(x, y, z, title):
     plt.close()
 
 if __name__ == "__main__":
-    bag_path = "./stationary15_2"
+    bag_path = "./stationary15_4"
     analyze_imu_data(bag_path)

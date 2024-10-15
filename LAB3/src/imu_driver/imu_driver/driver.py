@@ -55,10 +55,9 @@ class IMUDriver(Node):
                     msg.imu.orientation.z = q[2]
                     msg.imu.orientation.w = q[3]
                     
-                    # Convert gyro data from deg/s to rad/s
-                    msg.imu.angular_velocity.x = math.radians(gyro[0])
-                    msg.imu.angular_velocity.y = math.radians(gyro[1])
-                    msg.imu.angular_velocity.z = math.radians(gyro[2])
+                    msg.imu.angular_velocity.x = gyro[0]
+                    msg.imu.angular_velocity.y = gyro[1]
+                    msg.imu.angular_velocity.z = gyro[2]
                     
                     # Accelerometer data is already in m/s^2
                     msg.imu.linear_acceleration.x = accel[0]

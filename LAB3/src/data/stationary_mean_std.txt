@@ -1,20 +1,20 @@
 Accelerometer Statistics:
-  X: Mean = 0.171461161, Std Dev = 0.015651324
-  Y: Mean = 2.946545173, Std Dev = 0.046101158
-  Z: Mean = -9.289006613, Std Dev = 0.017266565
+  X: Mean = -0.360166286, Std Dev = 0.012579930
+  Y: Mean = 0.708944446, Std Dev = 0.014039725
+  Z: Mean = -9.715062253, Std Dev = 0.017171982
 
 Gyroscope Statistics:
-  X: Mean = -0.000000045, Std Dev = 0.000011684
-  Y: Mean = 0.000001517, Std Dev = 0.000014129
-  Z: Mean = -0.000001624, Std Dev = 0.000022512
+  X: Mean = -0.000006600, Std Dev = 0.000727211
+  Y: Mean = 0.000054281, Std Dev = 0.000819400
+  Z: Mean = -0.000034684, Std Dev = 0.001462281
 
 Magnetometer Statistics:
-  X: Mean = 0.000028600, Std Dev = 0.000000317
-  Y: Mean = -0.000021187, Std Dev = 0.000000467
-  Z: Mean = 0.000040047, Std Dev = 0.000001523
+  X: Mean = 0.000011987, Std Dev = 0.000000157
+  Y: Mean = -0.000029265, Std Dev = 0.000000330
+  Z: Mean = 0.000041217, Std Dev = 0.000001503
 
 Euler Angles Statistics:
-  Roll: Mean = -0.307196983, Std Dev = 0.004427002
-  Pitch: Mean = 0.017675711, Std Dev = 0.000994989
-  Yaw: Mean = 0.237207971, Std Dev = 0.001567335
+  Roll: Mean = -0.072855128, Std Dev = 0.000716388
+  Pitch: Mean = -0.036891935, Std Dev = 0.000263918
+  Yaw: Mean = 1.193763376, Std Dev = 0.003293854
 
